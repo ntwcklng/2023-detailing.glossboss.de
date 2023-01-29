@@ -10,7 +10,7 @@ export default function ModulComponent(props) {
       accent={`${props.business ? 'amber' : 'sky'}`}>
       <h2
         className={`mt-0 ${
-          props.business ? 'text-amber-200' : 'text-sky-300'
+          props.business ? 'text-amber-100' : 'text-sky-100'
         }`}>
         {props.heading}
         <span className='block text-sm text-gray-400 font-medium'>

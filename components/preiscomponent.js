@@ -6,10 +6,7 @@ export default function PreisComponent(props) {
   const mailBody = `Hallo Marvin, ich würde gerne einen Termin für folgende Leistung anfragen: ${props.heading}.`
   return (
     <Card className={cx(props.className)} accent='purple'>
-      <h2
-        className={`mt-0 ${
-          props.interior ? 'text-purple-200' : 'text-purple-200'
-        }`}>
+      <h2 className={`mt-0 'text-purple-100`}>
         {props.heading}
         <span className='block text-sm text-gray-400 font-medium'>
           {props.subHeading}
