@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    hr {
+        @apply: opacity-5
+    }
+        .gradients_heroHeading {
+            -webkit-background-clip: text !important;
+            background-clip: text;
+            background: linear-gradient(140deg, #fff, rgb(151, 151, 151)), #fff;}
+} 
