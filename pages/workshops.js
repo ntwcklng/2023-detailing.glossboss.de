@@ -32,8 +32,7 @@ export default function Workshops() {
             -maschinen werden behandelt. Der Lehrgang richtet sich sowohl an
             Anfänger als auch an Fortgeschrittene, die ihre Kenntnisse und
             Fähigkeiten vertiefen möchten, und kann sowohl für den
-            professionellen als auch für den privaten Gebrauch von nützlich
-            sein.
+            professionellen als auch für den privaten Gebrauch nützlich sein.
           </p>
           <ul>
             <li>Exzenter- und Rotationsmaschine</li>
