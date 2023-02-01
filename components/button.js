@@ -8,8 +8,8 @@ export default function Button(props) {
         {...props}
         href={props.href}
         className={cx(
-          `${props.primary === 'true' && 'bg-white text-gray-800'}`,
-          'px-5 py-3 cursor-pointer rounded-xl min-w-24  text-base font-semibold hover:bg-gray-200 hover:text-gray-800 hover:no-underline transition-all',
+          `${props.primary === 'true' && 'bg-slate-800 text-slate-100'}`,
+          'px-5 py-3 cursor-pointer rounded-lg min-w-24  text-base font-semibold hover:bg-slate-600 hover:text-slate-100 hover:no-underline transition-all',
           props.className
         )}>
         {props.children}

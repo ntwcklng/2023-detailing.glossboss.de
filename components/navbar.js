@@ -33,10 +33,10 @@ export default function Navbar(props) {
                       href={item.link}
                       key={item.link}
                       className={cx(
-                        'px-5 py-2 text-base  text-sky-100 rounded-xl hover:bg-gray-800 transition-all h-10',
+                        'px-5 py-2 text-base  text-sky-100 rounded-xl hover:bg-slate-600 transition-all h-10',
                         `${
                           currentRoute == item.link
-                            ? 'font-extrabold bg-gray-800'
+                            ? 'font-extrabold bg-slate-800'
                             : ''
                         }`
                       )}>
