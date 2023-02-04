@@ -5,8 +5,8 @@ export default function Card(props) {
     <div className='transition-all relative '>
       <div
         className={cx(
-          `absolute blur-[3px] inset-0 rounded-lg`,
-          'transition-all bg-gradient-to-br from-sky-400 via-purple-700 to-black opacity-90'
+          `absolute blur-[3px] inset-0 rounded-xl`,
+          'transition-all bg-gradient-to-br from-neutral-200 via-neutral-700 to-neutral-500 opacity-90'
         )}></div>
 
       <div
