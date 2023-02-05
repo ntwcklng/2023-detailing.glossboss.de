@@ -150,7 +150,7 @@ export default function Workshops() {
               'https://glossbossimages.s3-eu-central-1.amazonaws.com/2023/labocosmetica-training/DSC02643.jpg',
               'https://glossbossimages.s3-eu-central-1.amazonaws.com/2023/labocosmetica-training/DSC02639.jpg',
             ].map((img, i) => {
-              return <img src={img} className='rounded max-w-sm' />
+              return <img src={img} className='rounded max-w-sm' key={i} />
             })}
           </div>
         </ModulComponent>
