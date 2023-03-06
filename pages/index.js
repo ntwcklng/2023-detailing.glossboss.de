@@ -65,9 +65,14 @@ export default function Home() {
           <h3>Zertifizierungen</h3>
           <p>
             Im laufe der 14 Jahre haben sich einige Zertifizierungen und
-            Weiterbildungen angesammelt.
+            Weiterbildungen angesammelt. Des weiteren bin ich{' '}
+            <strong>Vorstandsmitglied bei der IDA</strong> - der International
+            Detailing Association - einem Berufsverband für professionelle
+            Aufbereiter und Detailer. Unsere Vision ist es die Detailing
+            Industrie professioneller zu gestalten und Standards zu setzen.
           </p>
           <div className='flex flex-col justify-around items-center gap-1'>
+            <img src='/IDA-MemberSticker_2023_600.png' />
             <img src='/gtechniq-logo.jpg' />
             <img src='/LogoLabocosmetica.jpg' />
             <img src='/maxprotect.jpg' />

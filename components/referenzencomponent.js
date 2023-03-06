@@ -7,7 +7,7 @@ import Image from 'next/image'
 export default function ReferenzenComponent(props) {
   return (
     <Card className={cx(props.className)} accent={`green`}>
-      <h2 className={`mt-0 text-green-100`}>
+      <h2 className={`mt-0 text-white`}>
         {props.heading}
         <span className='block text-sm text-gray-400 font-medium'>
           {props.subHeading}

@@ -37,14 +37,24 @@ export default function Preise() {
             Polierdurchgänge nötig. Wie viele das sind lässt sich am besten bei
             einem leckeren Espresso bei uns in Dorsten klären.
             <br />
+            Wir sind zertifiziert für verschiedene Beschichtungen
+            <ul>
+              <li>
+                <strong>Labocosmetica #STC + #Blindo+</strong>
+              </li>
+              <li>Gtechniq Crystal Serum Ultra</li>
+              <li>Nanolex Si3d HD</li>
+              <li>MaxProtect UNC-R</li>
+              <li>und viele weitere ...</li>
+            </ul>
           </p>
         </PreisComponent>
       </div>
       <div>
         <Heroheading>Du machst es lieber selbst?</Heroheading>
         <p className='font-mono text-center text-sm md:text-lg leading-snug max-w-md lg:max-w-xl m-0 p-0 mx-auto'>
-          Gerne! Durch unsere <Link href='/workshop'>Workshops</Link> und die
-          Produktempfehlungen aus dem{' '}
+          Du Macher! Durch unsere <Link href='/workshop'>Workshops</Link> und
+          die Produktempfehlungen aus dem{' '}
           <Link href='https://glossboss-shop.de' target='_blanks'>
             GLOSSBOSS-SHOP
           </Link>{' '}
