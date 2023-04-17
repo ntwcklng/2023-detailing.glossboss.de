@@ -70,6 +70,11 @@ export default function Contact(props) {
                   required></textarea>
               </label>
               <input
+                type='checkbox'
+                name='botcheck'
+                className='hidden'
+                style={{ display: 'none' }}></input>
+              <input
                 type='hidden'
                 name='redirect'
                 value='https://web3forms.com/success'
