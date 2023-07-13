@@ -55,7 +55,7 @@ export default function Preise() {
         <p className='font-mono text-center text-sm md:text-lg leading-snug max-w-md lg:max-w-xl m-0 p-0 mx-auto'>
           Du Macher! Durch unsere <Link href='/workshop'>Workshops</Link> und
           die Produktempfehlungen aus dem{' '}
-          <Link href='https://glossboss-shop.de' target='_blanks'>
+          <Link href='https://glossboss.de' target='_blanks'>
             GLOSSBOSS-SHOP
           </Link>{' '}
           steht dem nichts im wege.

@@ -23,7 +23,7 @@ export default function Home() {
         </p>
         <Plaincomponent heading='Darf ich mich kurz vorstellen?' subHeading=''>
           <img
-            src='https://glossboss-shop.de/media/image/opc/lg/marvin_glossboss_shadow.png'
+            src='https://glossboss.de/media/image/opc/lg/marvin_glossboss_shadow.png'
             className='w-64 mx-auto md:float-left'
           />
           Mein Name ist Marvin Mieth und ich betreibe seit über{' '}

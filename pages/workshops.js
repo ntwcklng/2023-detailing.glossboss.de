@@ -19,9 +19,9 @@ export default function Workshops() {
           <span className='font-bold text-sky-300'> hochwertiger</span> Arbeit.
         </p>
         <ModulComponent
-          shop='https://glossboss-shop.de/Polier-Workshop'
+          shop='https://glossboss.de/Polier-Workshop'
           heading='Polieren'
-          subHeading='4-6 Stunden, 350€'
+          subHeading='ca. 4 Stunden, 350€'
           className=''>
           <p>
             Der Lehrgang <strong>Polieren</strong> vermittelt Kenntnisse und
@@ -63,7 +63,7 @@ export default function Workshops() {
         </ModulComponent>
         <ModulComponent
           heading='Innenraum / Leder'
-          subHeading='4-6 Stunden, 350€'>
+          subHeading='ca. 4 Stunden, 350€'>
           <p>
             Der Lehrgang <strong>Innenraum / Leder</strong> bietet eine
             umfassende Ausbildung in den Techniken und Methoden der Reinigung
@@ -102,7 +102,7 @@ export default function Workshops() {
           </ul>
         </ModulComponent>
         <ModulComponent
-          shop='https://glossboss-shop.de/Coating-Workshop'
+          shop='https://glossboss.de/Coating-Workshop'
           heading='Coating / Versiegelung'
           subHeading='2-4 Stunden, 200€'>
           <p>
@@ -156,7 +156,7 @@ export default function Workshops() {
         </ModulComponent>
         <ModulComponent
           heading='Detailing Tagesworkshop'
-          subHeading='6-8 Stunden, 750€'>
+          subHeading='ca. 6 Stunden, 750€'>
           <p>
             Der Lehrgang <strong>Detailing Tagesworkshop</strong> ist die ideale
             Chance, einen ganzen Tag voller Themen im Bereich Detailing zu
