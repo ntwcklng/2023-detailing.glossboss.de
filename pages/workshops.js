@@ -156,7 +156,7 @@ export default function Workshops() {
         </ModulComponent>
         <ModulComponent
           heading='Detailing Tagesworkshop'
-          subHeading='ca. 6 Stunden, 750€'>
+          subHeading='ca. 6 Stunden, 892,50€'>
           <p>
             Der Lehrgang <strong>Detailing Tagesworkshop</strong> ist die ideale
             Chance, einen ganzen Tag voller Themen im Bereich Detailing zu
