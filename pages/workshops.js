@@ -161,7 +161,7 @@ export default function Workshops() {
             Der Lehrgang <strong>Detailing Tagesworkshop</strong> ist die ideale
             Chance, einen ganzen Tag voller Themen im Bereich Detailing zu
             behandeln. Egal worauf du deinen Schwerpunkt legen möchtest - der
-            Tag gehört dir! Du kannst 2 weitere Personen mitnehmen und der Preis
+            Tag gehört dir! Du kannst 3 weitere Personen mitnehmen und der Preis
             bleibt gleich.
           </p>
           <ul className=''>
