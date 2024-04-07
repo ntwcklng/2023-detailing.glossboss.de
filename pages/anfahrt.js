@@ -9,7 +9,7 @@ import ModulComponent from '@/components/modulcomponent'
 export default function Preise() {
   return (
     <Layout
-      url={`https://workshops.glossboss.de`}
+      url={`https://detailing.glossboss.de/anfahrt`}
       title='workshops@GLOSSBOSS'
       description='Offizielle Website der IDA Germany'>
       <div className='prose-li:m-0'>

@@ -16,16 +16,15 @@ const navLinks = [
 export default function Navbar(props) {
   const router = useRouter()
   const currentRoute = router.pathname
-  console.log(currentRoute)
   return (
     <>
-      <div className='bg-black rounded-2xl mx-auto px-3 py-1 not-prose mb-16'>
+      <div className='bg-white rounded-2xl mx-auto px-3 py-1 not-prose mb-16'>
         <Disclosure>
           {({ open }) => (
             <>
-              <div className='flex flex-wrap justify-around md:gap-10 md:flex-nowrap h-24'>
+              <div className='flex flex-wrap justify-around md:gap-10 md:flex-nowrap h-16'>
                 <Link href='/'>
-                  <img src='/2022-500-500.png' className='max-h-24 h-full' />
+                  <img src='/5-3d-1024px.png' className='max-h-16 p-2 h-full' />
                 </Link>
                 <div className='flex-col items-center justify-around order-1 hidden w-full lg:flex lg:flex-row lg:justify-end lg:w-auto lg:order-none lg:flex-1 whitespace-nowrap md:gap-4'>
                   {navLinks.map((item) => (
@@ -33,10 +32,10 @@ export default function Navbar(props) {
                       href={item.link}
                       key={item.link}
                       className={cx(
-                        'px-5 py-2 text-base  text-sky-100 rounded-xl hover:bg-slate-600 transition-all h-10',
+                        'px-5 py-2 text-base  text-black rounded-xl hover:bg-gray-100 transition-all h-10',
                         `${
                           currentRoute == item.link
-                            ? 'font-extrabold bg-slate-800'
+                            ? 'font-bold bg-gray-100'
                             : ''
                         }`
                       )}>
@@ -63,7 +62,7 @@ export default function Navbar(props) {
                 </div>
                 <Disclosure.Button
                   aria-label='Toggle Menu'
-                  className='px-2 py-1 ml-auto text-gray-100 rounded-md lg:hidden focus:text-sky-500 focus:outline-none'>
+                  className='px-2 py-1 ml-auto text-gray-900 rounded-md lg:hidden focus:text-sky-500 focus:outline-none'>
                   <svg
                     className='w-6 h-6 fill-current'
                     xmlns='http://www.w3.org/2000/svg'
@@ -85,12 +84,12 @@ export default function Navbar(props) {
                 </Disclosure.Button>
               </div>
               <Disclosure.Panel>
-                <div className='flex flex-col items-center justify-start order-2 w-full lg:hidden border-b border-gray-100 pb-8 gap-3 mt-6'>
+                <div className='flex flex-col items-center justify-start order-2 w-full lg:hidden pb-8 gap-3 mt-3'>
                   {navLinks.map((item) => (
                     <Link
                       href={item.link}
                       key={item.link}
-                      className='px-5 py-2 text-md font-medium text-gray-50 rounded-xl hover:bg-gray-800 transition-all'>
+                      className='px-5 py-2 text-md font-medium text-gray-900 rounded-xl hover:bg-gray-100 transition-all'>
                       {item.name}{' '}
                       {item.external ? (
                         <svg

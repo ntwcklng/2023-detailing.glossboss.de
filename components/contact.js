@@ -31,8 +31,8 @@ export default function Contact(props) {
     }
   }
   return (
-    <Container className='transition-all relative rounded-lg cardBorderGradient mb-20 mt-10'>
-      <h2 className='mt-0 text-gray-50'>Lass uns reden</h2>
+    <Container className='bg-white transition-all relative rounded-lg cardBorderGradient mb-20 mt-10 !p-8'>
+      <h2 className='mt-0 text-gray-900'>Lass uns reden</h2>
       {emailSend ? (
         <>
           <strong>Nachricht erfolgreich gesendet, Danke!</strong>
@@ -47,7 +47,7 @@ export default function Contact(props) {
                   <input
                     type='text'
                     name='name'
-                    className='mt-1 block w-full rounded-md bg-neutral-700 border-transparent focus:border-gray-700 focus:bg-neutral-600 focus:ring-0'
+                    className='mt-1 block w-full rounded-md bg-neutral-50 border-transparent focus:border-gray-700 focus:bg-neutral-100 focus:ring-0'
                     required
                   />
                 </label>
@@ -56,7 +56,7 @@ export default function Contact(props) {
                   <input
                     type='email'
                     name='email'
-                    className='mt-1 block w-full rounded-md bg-neutral-700 border-transparent focus:border-gray-700 focus:bg-neutral-600 focus:ring-0'
+                    className='mt-1 block w-full rounded-md bg-neutral-50 border-transparent focus:border-gray-700 focus:bg-neutral-100 focus:ring-0'
                     required
                   />
                 </label>
@@ -66,7 +66,7 @@ export default function Contact(props) {
                 <textarea
                   name='message'
                   rows='3'
-                  className='mt-1 block w-full rounded-md bg-neutral-700 border-transparent focus:border-gray-700 focus:bg-neutral-600 focus:ring-0'
+                  className='mt-1 block w-full rounded-md bg-neutral-50 border-transparent focus:border-gray-700 focus:bg-neutral-100 focus:ring-0'
                   required></textarea>
               </label>
               <input
@@ -84,7 +84,7 @@ export default function Contact(props) {
                 primary='true'
                 role='button'
                 type='submit'
-                className='bg-slate-50 text-slate-800 mt-12 mb-4 px-5 py-3 cursor-pointer rounded-lg min-w-24  text-base font-semibold hover:bg-slate-200 hover:text-slate-600 hover:no-underline transition-all disabled:cursor-not-allowed'>
+                className='bg-gray-50 text-gray-800 mt-12 mb-4 px-5 py-3 cursor-pointer rounded-lg min-w-24  text-base font-semibold hover:bg-gray-200 hover:text-gray-600 hover:no-underline transition-all disabled:cursor-not-allowed'>
                 {formSubmitted ? (
                   <div
                     className='inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-current border-r-transparent motion-reduce:animate-[spin_1.5s_linear_infinite]'

@@ -24,7 +24,7 @@ export default function Layout(props) {
           site_name: props.title,
         }}
       />
-      <div className='bg-black mx-auto p-2 min-h-vh relative'>
+      <div className='bg-gray-50 mx-auto p-2 min-h-vh relative'>
         <div className='relative isolate z-10'>
           <div className='absolute inset-x-0 top-4 -z-10 flex -translate-y-1/2 justify-center overflow-hidden [mask-image:radial-gradient(50%_45%_at_50%_55%,white,transparent)]'>
             <svg
@@ -58,7 +58,7 @@ export default function Layout(props) {
           </div>
         </div>
         <div className=' mx-auto relative z-20 '>
-          <Container className='prose prose-invert prose-lg prose-a:text-sky-400 prose-a:no-underline hover:prose-a:underline'>
+          <Container className='prose prose-lg prose-a:text-sky-400 prose-a:no-underline hover:prose-a:underline'>
             <Navbar />
             {children}
             <Footer />

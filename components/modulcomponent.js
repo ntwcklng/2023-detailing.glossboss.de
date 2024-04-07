@@ -9,9 +9,11 @@ export default function ModulComponent(props) {
       className={cx(props.className)}
       accent={`${props.business ? 'amber' : 'sky'}`}>
       <h2
-        className={`mt-0 ${props.business ? 'text-gray-50' : 'text-gray-50'}`}>
+        className={`mt-0 ${
+          props.business ? 'text-gray-900' : 'text-gray-900'
+        }`}>
         {props.heading}
-        <span className='block text-sm text-gray-400 font-medium'>
+        <span className='block text-sm text-gray-600 font-medium'>
           {props.subHeading}
         </span>
       </h2>
@@ -27,7 +29,7 @@ export default function ModulComponent(props) {
                 props.heading
               }&body=${mailBody.replace(' ', '%20')}`
         }`}>
-        {props.heading} {props.shop ? 'Buchen' : 'Termin Anfragen'}
+        {props.shop ? 'Buchen' : 'Termin Anfragen'}
       </Button>
     </Card>
   )

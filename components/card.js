@@ -2,8 +2,8 @@ import { cx } from '@/utils/all'
 
 export default function Card(props) {
   return (
-    <div className='transition-all relative rounded-lg cardBorderGradient'>
-      <div className={cx('p-8 my-16 bg-black', props.className)}>
+    <div className='transition-all relative rounded-xl cardBorderGradient'>
+      <div className={cx('rounded-xl p-8 my-16 bg-white', props.className)}>
         {props.children}
       </div>
     </div>

@@ -11,7 +11,7 @@ import Link from 'next/link'
 export default function Preise() {
   return (
     <Layout
-      url={`https://workshops.glossboss.de`}
+      url={`https://detailing.glossboss.de/preise`}
       title='preise@GLOSSBOSS'
       description='Übersicht über unsere Preise und Leistungen'>
       <div className='prose-li:m-0'>
@@ -45,6 +45,28 @@ export default function Preise() {
               <li>Gtechniq Crystal Serum Ultra</li>
               <li>Nanolex Si3d HD</li>
               <li>MaxProtect UNC-R</li>
+              <li>und viele weitere ...</li>
+            </ul>
+          </p>
+        </PreisComponent>
+        <PreisComponent
+          heading='Trockeneisreinigung'
+          subHeading='ab 120€'
+          className=''>
+          <p>
+            Neben der konventionellen Reinigung mit Wasser + Chemie bieten wir
+            auch die Reinigung mit Trockeneis an. Besonders bei empfindlichen
+            und schwer zugänglichen Bereichen wie zum Beispiel im Motorraum
+            erreichen wir ein hervorragendes Ergebnis.
+            <br />
+            Die Möglichkeiten sind Vielfältig
+            <ul>
+              <li>
+                <strong>Motorraumreinigung mit Trockeneis</strong>
+              </li>
+              <li>Innenraumreinigung mit Trockeneis</li>
+              <li>Schwer zugängliche Stellen</li>
+              <li>Unterboden</li>
               <li>und viele weitere ...</li>
             </ul>
           </p>
