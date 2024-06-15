@@ -1,7 +1,15 @@
 import { cx } from '@/utils/all'
 import Link from 'next/link'
 
-export default function ReviewComponent(props) {
+export default function ReviewComponent(props: {
+  className?: string
+  stars?: number
+  name: string
+  origin: string
+  originLink: string
+  review: string
+  children?: React.ReactNode
+}) {
   const stars = props.stars || 0
   let i = 0
   return (

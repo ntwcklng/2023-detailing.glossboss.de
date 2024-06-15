@@ -1,19 +1,10 @@
-import { NextSeo } from 'next-seo'
-import Layout from '@/components/layout'
-import Image from 'next/image'
-
-import Container from '@/components/container'
-
 import Heroheading from '@/components/heroheading'
 import PreisComponent from '@/components/preiscomponent'
 import Link from 'next/link'
 
 export default function Preise() {
   return (
-    <Layout
-      url={`https://detailing.glossboss.de/preise`}
-      title='preise@GLOSSBOSS'
-      description='Übersicht über unsere Preise und Leistungen'>
+    <>
       <div className='prose-li:m-0'>
         <Heroheading>Leistungen und Preise</Heroheading>
         <p className='font-mono text-center text-sm md:text-lg leading-snug max-w-md lg:max-w-xl m-0 p-0 mx-auto'>
@@ -121,6 +112,6 @@ export default function Preise() {
           </p>
         </PreisComponent>
       </div>
-    </Layout>
+    </>
   )
 }

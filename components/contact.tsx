@@ -1,13 +1,12 @@
-import { cx } from '@/utils/all'
+'use client'
 import { useState } from 'react'
 import Button from './button'
 import Container from './container'
-import Heroheading from './heroheading'
 
-export default function Contact(props) {
+export default function Contact(props: any) {
   const [emailSend, setemailSend] = useState(false)
   const [formSubmitted, setformSubmitted] = useState(false)
-  async function handleSubmit(e) {
+  async function handleSubmit(e: any) {
     setformSubmitted(true)
     e.preventDefault()
     const response = await fetch('https://api.web3forms.com/submit', {
@@ -65,7 +64,7 @@ export default function Contact(props) {
                 <span>Deine Nachricht</span>
                 <textarea
                   name='message'
-                  rows='3'
+                  rows={3}
                   className='mt-1 block w-full rounded-md bg-neutral-50 border-transparent focus:border-gray-700 focus:bg-neutral-100 focus:ring-0'
                   required></textarea>
               </label>
@@ -81,7 +80,6 @@ export default function Contact(props) {
               />
 
               <button
-                primary='true'
                 role='button'
                 type='submit'
                 className='bg-gray-50 text-gray-800 mt-12 mb-4 px-5 py-3 cursor-pointer rounded-lg min-w-24  text-base font-semibold hover:bg-gray-200 hover:text-gray-600 hover:no-underline transition-all disabled:cursor-not-allowed'>

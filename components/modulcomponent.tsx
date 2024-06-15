@@ -2,7 +2,7 @@ import { cx } from '@/utils/all'
 import Button from './button'
 import Card from './card'
 
-export default function ModulComponent(props) {
+export default function ModulComponent(props: any) {
   const mailBody = `Hallo Marvin, ich würde gerne einen Termin für das Modul ${props.heading} bei dir anfragen.`
   return (
     <Card

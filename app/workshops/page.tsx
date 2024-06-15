@@ -1,17 +1,9 @@
-import { NextSeo } from 'next-seo'
-import Layout from '@/components/layout'
-import Image from 'next/image'
-import Container from '@/components/container'
-
 import Heroheading from '@/components/heroheading'
 import ModulComponent from '@/components/modulcomponent'
 
 export default function Workshops() {
   return (
-    <Layout
-      url={`https://detailing.glossboss.de/workshops`}
-      title='workshops@GLOSSBOSS'
-      description='Die richtige Technik macht den Unterschied. Überzeuge deine Kunden mit hochwertiger Arbeit.'>
+    <>
       <div className='prose-li:m-0'>
         <Heroheading>Detailing Module</Heroheading>
         <p className='font-mono text-center text-sm md:text-lg leading-snug max-w-md lg:max-w-xl m-0 p-0 mx-auto'>
@@ -267,6 +259,6 @@ export default function Workshops() {
           </ul>
         </ModulComponent>
       </div>
-    </Layout>
+    </>
   )
 }

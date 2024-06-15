@@ -1,7 +1,7 @@
 import { cx } from '@/utils/all'
 import Link from 'next/link'
 
-export default function Button(props) {
+export default function Button(props: any) {
   return (
     <div className='not-prose mt-16 mb-4'>
       <Link

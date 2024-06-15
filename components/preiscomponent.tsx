@@ -2,7 +2,12 @@ import { cx } from '@/utils/all'
 import Button from './button'
 import Card from './card'
 
-export default function PreisComponent(props) {
+export default function PreisComponent(props: {
+  className?: string
+  heading: string
+  subHeading: string
+  children?: React.ReactNode
+}) {
   const mailBody = `Hallo Marvin, ich würde gerne einen Termin für folgende Leistung anfragen: ${props.heading}.`
   return (
     <Card className={cx(props.className)} accent='purple'>

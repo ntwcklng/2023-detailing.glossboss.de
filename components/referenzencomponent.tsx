@@ -1,10 +1,14 @@
 import { cx } from '@/utils/all'
 import Link from 'next/link'
-import Button from './button'
 import Card from './card'
-import Image from 'next/image'
 
-export default function ReferenzenComponent(props) {
+export default function ReferenzenComponent(props: {
+  className?: string
+  heading: string
+  subHeading: string
+  img: string[]
+  children?: React.ReactNode
+}) {
   return (
     <Card className={cx(props.className)} accent={`green`}>
       <h2 className={`mt-0 text-gray-900`}>
