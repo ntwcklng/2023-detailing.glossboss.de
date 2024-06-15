@@ -33,7 +33,7 @@ export default function Navbar() {
                 <div className='flex-col items-center justify-around order-1 hidden w-full lg:flex lg:flex-row lg:justify-end lg:w-auto lg:order-none lg:flex-1 whitespace-nowrap md:gap-4'>
                   {navLinks.map((item) => (
                     <Link
-                      href={`/`}
+                      href={item.link}
                       key={item.link}
                       className={cx(
                         'px-5 py-2 text-base  text-black rounded-xl hover:bg-gray-100 transition-all h-10',
