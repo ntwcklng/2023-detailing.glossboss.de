@@ -2,6 +2,11 @@ import Heroheading from '@/components/heroheading'
 import PreisComponent from '@/components/preiscomponent'
 import Link from 'next/link'
 
+export const metadata = {
+  title: 'Leistungen und Preise',
+  description: 'Der Wert einer Dienstleistung ist nicht ihr Preis.',
+}
+
 export default function Preise() {
   return (
     <>

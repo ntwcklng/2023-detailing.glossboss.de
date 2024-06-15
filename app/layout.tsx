@@ -8,8 +8,9 @@ import Footer from '@/components/footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'GLOSSBOSS Coating Finder',
-  description: 'Finde das perfekte Coating für dich und deine Kunden',
+  title: 'GLOSSBOSS Detailing in 46284 Dorsten',
+  description:
+    'Dein Ansprechpartner für hochwertiges Detailing in 46284 Dorsten',
 }
 
 export default function RootLayout({
