@@ -19,7 +19,7 @@ export default function Preise() {
 				</div>
 				<PreisComponent
 					heading="Polieren / Keramikversiegelung"
-					subHeading="min. 12 Stunden, ab 950€"
+					subHeading="min. 12 Stunden, ab 1200€"
 					className="">
 					<div>
 						Das Standard-Paket für Neu- und Gebrauchtwagen. Bevor wir deinen
@@ -47,7 +47,7 @@ export default function Preise() {
 				</PreisComponent>
 				<PreisComponent
 					heading="Trockeneisreinigung"
-					subHeading="ab 120€"
+					subHeading="ab 180€"
 					className="">
 					<div>
 						Neben der konventionellen Reinigung mit Wasser + Chemie bieten wir
@@ -82,7 +82,7 @@ export default function Preise() {
 			<div>
 				<PreisComponent
 					heading="Lederpflege- und Reparatur"
-					subHeading="min. 3 Stunden, ab 250€"
+					subHeading="min. 3 Stunden, ab 280€"
 					className="">
 					<div>
 						Egal ob speckiges Leder oder eingerissene Sitzwange, wir können es
@@ -93,7 +93,7 @@ export default function Preise() {
 				</PreisComponent>
 				<PreisComponent
 					heading="Textil- und Alcantara"
-					subHeading="min. 3 Stunden, ab 250€"
+					subHeading="min. 3 Stunden, ab 280€"
 					className="">
 					<div>
 						Flecken aus Stoff- oder Alcantaraoberflächen entfernen wir entweder
@@ -106,7 +106,7 @@ export default function Preise() {
 				</PreisComponent>
 				<PreisComponent
 					heading="Felgenversiegelung"
-					subHeading="min. 2 Stunden, ab 200€"
+					subHeading="min. 2 Stunden, ab 230€"
 					className="">
 					<div>
 						Versiegelte Felgen lassen sich einfacher reinigen und glänzen
