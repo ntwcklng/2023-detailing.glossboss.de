@@ -27,7 +27,11 @@ export default function Navbar() {
 					<>
 						<div className="flex flex-wrap justify-around md:gap-10 md:flex-nowrap h-16">
 							<Link href="/">
-								<img src="/5-3d-1024px.png" className="max-h-16 p-2 h-full" />
+								<img
+									src="/5-3d-1024px.png"
+									className="max-h-16 p-2 h-full"
+									alt="Logo"
+								/>
 							</Link>
 							<div className="flex-col items-center justify-around order-1 hidden w-full lg:flex lg:flex-row lg:justify-end lg:w-auto lg:order-none lg:flex-1 whitespace-nowrap md:gap-4">
 								{navLinks.map((item) => (

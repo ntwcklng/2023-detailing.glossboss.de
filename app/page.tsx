@@ -16,6 +16,7 @@ export default function Page() {
 				<img
 					src="https://glossboss.de/media/image/opc/lg/marvin_glossboss_shadow.png"
 					className="w-64 mx-auto md:float-left"
+					alt="Marvin Mieth"
 				/>
 				Mein Name ist Marvin Mieth und ich betreibe seit über{' '}
 				<strong>14 Jahren</strong> die Fahrzeugaufbereitung auf höchstem Niveau.
@@ -60,11 +61,19 @@ export default function Page() {
 					professioneller zu gestalten und Standards zu setzen.
 				</p>
 				<div className="flex flex-col justify-around items-center gap-1">
-					<img src="/IDA-MemberSticker_2025-01.png" className="max-w-sm" />
-					<img src="/gtechniq-logo.jpg" />
-					<img src="/LogoLabocosmetica.jpg" />
-					<img src="/maxprotect.jpg" />
-					<img src="/NanolexApprovedDetailer_2018.svg" className="w-60" />
+					<img
+						src="/IDA-MemberSticker_2025-01.png"
+						className="max-w-sm"
+						alt="IDA Member Sticker"
+					/>
+					<img src="/gtechniq-logo.jpg" alt="gtechniq Logo" />
+					<img src="/LogoLabocosmetica.jpg" alt="Labo Cometica Logo" />
+					<img src="/maxprotect.jpg" alt="Max Protect Logo" />
+					<img
+						src="/NanolexApprovedDetailer_2018.svg"
+						className="w-60"
+						alt="Nanolex Approved Detailer"
+					/>
 				</div>
 			</Plaincomponent>
 			<Plaincomponent
