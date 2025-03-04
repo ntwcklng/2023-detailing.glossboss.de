@@ -1,5 +1,6 @@
 import { cx } from '@/utils/all'
 import Link from 'next/link'
+import Image from 'next/image'
 import Card from './card'
 
 export default function ReferenzenComponent(props: {
@@ -20,9 +21,12 @@ export default function ReferenzenComponent(props: {
       <div className='flex md:flex-row justify-center md:gap-10 gab-5 flex-col items-center'>
         {props.img.map((img) => (
           <Link href={img.replace('thumbnail/', '')} target='_blank' key={img}>
-            <img
+            <Image
               className='hover:scale-105 transition-all rounded'
               src={img.replace('amazonaws.com/', 'amazonaws.com/thumbnails/')}
+              width={400}
+              height={300}
+              alt=""
             />
           </Link>
         ))}

@@ -1,6 +1,7 @@
 import Heroheading from '@/components/heroheading'
 import Plaincomponent from '@/components/plaincomponent'
 import ReviewComponent from '@/components/reviewcomponent'
+import Image from 'next/image'
 
 export default function Page() {
 	return (
@@ -13,8 +14,10 @@ export default function Page() {
 				<span className="font-bold text-indigo-400"> Pflegeprodukte</span>.
 			</p>
 			<Plaincomponent heading="Darf ich mich kurz vorstellen?" subHeading="">
-				<img
+				<Image
 					src="https://glossboss.de/media/image/opc/lg/marvin_glossboss_shadow.png"
+					width={256}
+					height={256}
 					className="w-64 mx-auto md:float-left"
 					alt="Marvin Mieth"
 				/>
@@ -61,16 +64,35 @@ export default function Page() {
 					professioneller zu gestalten und Standards zu setzen.
 				</p>
 				<div className="flex flex-col justify-around items-center gap-1">
-					<img
+					<Image
 						src="/IDA-MemberSticker_2025-01.png"
+						width={384}
+						height={200}
 						className="max-w-sm"
 						alt="IDA Member Sticker"
 					/>
-					<img src="/gtechniq-logo.jpg" alt="gtechniq Logo" />
-					<img src="/LogoLabocosmetica.jpg" alt="Labo Cometica Logo" />
-					<img src="/maxprotect.jpg" alt="Max Protect Logo" />
-					<img
+					<Image
+						src="/gtechniq-logo.jpg"
+						width={200}
+						height={100}
+						alt="gtechniq Logo"
+					/>
+					<Image
+						src="/LogoLabocosmetica.jpg"
+						width={200}
+						height={100}
+						alt="Labo Cometica Logo"
+					/>
+					<Image
+						src="/maxprotect.jpg"
+						width={200}
+						height={100}
+						alt="Max Protect Logo"
+					/>
+					<Image
 						src="/NanolexApprovedDetailer_2018.svg"
+						width={240}
+						height={100}
 						className="w-60"
 						alt="Nanolex Approved Detailer"
 					/>

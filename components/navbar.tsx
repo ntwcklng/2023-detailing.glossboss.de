@@ -8,6 +8,7 @@ import {
 	CollapsibleTrigger,
 } from '@/components/ui/collapsible'
 import { useState } from 'react'
+import Image from 'next/image'
 
 const navLinks = [
 	{ link: '/preise', name: 'Preise' },
@@ -30,7 +31,13 @@ export default function Navbar() {
 				<Collapsible open={isOpen} onOpenChange={setIsOpen}>
 					<div className="flex flex-wrap justify-between md:gap-10 md:flex-nowrap h-14">
 						<Link href="/" className="flex items-center">
-							<img src="/5-3d-1024px.png" className="h-8" alt="Logo" />
+							<Image
+								src="/5-3d-1024px.png"
+								width={32}
+								height={32}
+								className="h-8"
+								alt="Logo"
+							/>
 						</Link>
 						<div className="flex-col items-center justify-around order-1 hidden w-full lg:flex lg:flex-row lg:justify-end lg:w-auto lg:order-none lg:flex-1">
 							{navLinks.map((item) => (
