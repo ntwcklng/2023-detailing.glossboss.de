@@ -141,9 +141,7 @@ export default function Impressum() {
 			<p>
 				Quelle: <a href="http://www.juraforum.de">www.juraforum.de</a>
 			</p>
-			<p>
-				<h2>AGB</h2>
-			</p>
+			<h2>AGB</h2>
 			<p>
 				Alle zwischen „GLOSSBOSS Detailing“ (im folgenden Anbieter genannt) und
 				den Kunden (im folgenden Auftraggeber genannt) abgeschlossenen Verträge
