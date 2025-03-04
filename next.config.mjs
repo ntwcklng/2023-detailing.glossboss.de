@@ -3,6 +3,9 @@ const nextConfig = {
 	images: {
 		remotePatterns: [
 			{
+				hostname: 'glossbossimages.s3-eu-central-1.amazonaws.com',
+			},
+			{
 				hostname: 'glossbossimages.s3.eu-central-1.amazonaws.com',
 			},
 			{

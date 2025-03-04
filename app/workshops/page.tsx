@@ -146,8 +146,8 @@ export default function Workshops() {
 							return (
 								<Image
 									src={img}
-									width={384}
-									height={300}
+									width={284}
+									height={600}
 									className="rounded max-w-sm"
 									key={i}
 									alt=""
