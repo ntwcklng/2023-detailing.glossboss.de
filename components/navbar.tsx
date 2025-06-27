@@ -26,8 +26,8 @@ export default function Navbar() {
 	const [isOpen, setIsOpen] = useState(false)
 
 	return (
-		<div className="sticky top-0 z-40 w-full bg-white/80 backdrop-blur-sm shadow-sm">
-			<div className="mx-auto not-prose px-6 py-2 xl:py-0 xl:px-5 max-w-screen-lg">
+		<div className="sticky top-0 z-40 w-full bg-white/80 backdrop-blur-xs shadow-xs">
+			<div className="mx-auto not-prose px-6 py-2 xl:py-0 xl:px-5 max-w-(--breakpoint-lg)">
 				<Collapsible open={isOpen} onOpenChange={setIsOpen}>
 					<div className="flex flex-wrap justify-between md:gap-10 md:flex-nowrap h-14">
 						<Link href="/" className="flex items-center">
@@ -39,7 +39,7 @@ export default function Navbar() {
 								alt="Logo"
 							/>
 						</Link>
-						<div className="flex-col items-center justify-around order-1 hidden w-full lg:flex lg:flex-row lg:justify-end lg:w-auto lg:order-none lg:flex-1">
+						<div className="flex-col items-center justify-around order-1 hidden w-full lg:flex lg:flex-row lg:justify-end lg:w-auto lg:order-0 lg:flex-1">
 							{navLinks.map((item) => (
 								<Link
 									href={item.link}
@@ -57,7 +57,7 @@ export default function Navbar() {
 						<CollapsibleTrigger asChild>
 							<button
 								aria-label="Toggle Menu"
-								className="px-2 py-1 ml-auto text-gray-700 rounded-md lg:hidden focus:outline-none">
+								className="px-2 py-1 ml-auto text-gray-700 rounded-md lg:hidden focus:outline-hidden">
 								<svg
 									className="w-6 h-6 fill-current"
 									xmlns="http://www.w3.org/2000/svg"

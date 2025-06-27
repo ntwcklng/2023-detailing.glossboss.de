@@ -135,7 +135,7 @@ export default function Workshops() {
 							Neben/Vollgewerbliche
 						</li>
 					</ul>
-					<div className="flex h-[500px] justify-between flex-row gap-3 overflow-x-auto after:absolute after:md:w-28 after:w-10 after:h-[500px] after:pointer-events-none after:bg-gradient-to-r after:from-white before:absolute before:md:w-28 before:w-10 before:h-[500px] before:pointer-events-none before:bg-gradient-to-l before:from-white before:right-0">
+					<div className="flex h-[500px] justify-between flex-row gap-3 overflow-x-auto after:absolute md:after:w-28 after:w-10 after:h-[500px] after:pointer-events-none after:bg-linear-to-r after:from-white before:absolute md:before:w-28 before:w-10 before:h-[500px] before:pointer-events-none before:bg-linear-to-l before:from-white before:right-0">
 						{[
 							'https://glossbossimages.s3-eu-central-1.amazonaws.com/2023/labocosmetica-training/DSC02630.jpg',
 							'https://glossbossimages.s3-eu-central-1.amazonaws.com/2023/labocosmetica-training/DSC02618.jpg',

@@ -28,7 +28,7 @@ export default function Contact(props: any) {
 		}
 	}
 	return (
-		<Container className="bg-white/50 backdrop-blur-sm transition-all relative rounded-2xl mb-20 mt-10 !p-8">
+		<Container className="bg-white/50 backdrop-blur-xs transition-all relative rounded-2xl mb-20 mt-10 p-8!">
 			<h2 className="mt-0 text-gray-900">Lass uns reden</h2>
 			{emailSend ? (
 				<strong>Nachricht erfolgreich gesendet, Danke!</strong>
@@ -77,7 +77,7 @@ export default function Contact(props: any) {
 						<button
 							role="button"
 							type="submit"
-							className="bg-indigo-600 text-white mt-8 px-5 py-2.5 rounded-full text-sm font-medium hover:bg-indigo-700 hover:shadow-sm transition-all disabled:cursor-not-allowed disabled:opacity-50"
+							className="bg-indigo-600 text-white mt-8 px-5 py-2.5 rounded-full text-sm font-medium hover:bg-indigo-700 hover:shadow-xs transition-all disabled:cursor-not-allowed disabled:opacity-50"
 							disabled={formSubmitted}>
 							{formSubmitted ? (
 								<div
