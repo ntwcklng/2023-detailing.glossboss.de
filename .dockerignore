@@ -1,0 +1,20 @@
+# Node/Bun dependencies
+node_modules
+npm-debug.log
+
+# Build output (wird eh neu gebaut)
+.next
+out
+
+# Test & Dev Files
+*.md
+*.log
+tests
+__tests__
+coverage
+.vscode
+.idea
+
+# Git
+.git
+.gitignore
