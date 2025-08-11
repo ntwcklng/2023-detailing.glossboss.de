@@ -45,29 +45,43 @@ export default function Preise() {
 						</ul>
 					</div>
 				</PreisComponent>
-				<PreisComponent
-					heading="Trockeneisreinigung"
-					subHeading="ab 180€"
-					className="">
-					<div>
-						Neben der konventionellen Reinigung mit Wasser + Chemie bieten wir
-						auch die Reinigung mit Trockeneis an. Besonders bei empfindlichen
-						und schwer zugänglichen Bereichen wie zum Beispiel im Motorraum
-						erreichen wir ein hervorragendes Ergebnis.
-						<br />
-						Die Möglichkeiten sind Vielfältig
-						<ul>
-							<li>
-								<strong>Motorraumreinigung mit Trockeneis</strong>
-							</li>
-							<li>Innenraumreinigung mit Trockeneis</li>
-							<li>Schwer zugängliche Stellen</li>
-							<li>Unterboden</li>
-							<li>und viele weitere ...</li>
-						</ul>
-					</div>
-				</PreisComponent>
 			</div>
+
+			<PreisComponent
+				heading="Lederpflege- und Reparatur"
+				subHeading="min. 3 Stunden, ab 280€"
+				className="">
+				<div>
+					Egal ob speckiges Leder oder eingerissene Sitzwange, wir können es
+					reparieren. Dein Leder wird wieder geschmeidiger und fühlt sich wieder
+					natürlicher an. Die Regelmäßige Lederpflege ist unheimlich wichtig für
+					den Werterhalt deines Schmuckstückes.
+				</div>
+			</PreisComponent>
+			<PreisComponent
+				heading="Textil- und Alcantara"
+				subHeading="min. 3 Stunden, ab 280€"
+				className="">
+				<div>
+					Flecken aus Stoff- oder Alcantaraoberflächen entfernen wir entweder
+					komplett Chemiefrei mit Trockendampf, oder schonend mit einer milden
+					Reinigungslösung. Damit die gereinigte Oberfläche auch langfristig vor
+					neuen Verschmutzungen geschützt ist, wird diese nach der Reinigung
+					imprägniert.
+					<br />
+				</div>
+			</PreisComponent>
+			<PreisComponent
+				heading="Felgenversiegelung"
+				subHeading="min. 2 Stunden, ab 230€"
+				className="">
+				<div>
+					Versiegelte Felgen lassen sich einfacher reinigen und glänzen besser.
+					Der heiße Bremsstaub kann sich außerdem nicht so schnell in den Lack
+					der Felge einbrennen. Für die Felgenbeschichtung nehmen wir
+					ausschließlich die Widerstandsfähigsten Keramikversiegelungen. <br />
+				</div>
+			</PreisComponent>
 			<div>
 				<Heroheading>Du machst es lieber selbst?</Heroheading>
 				<div className="font-mono text-center text-sm md:text-lg leading-snug max-w-md lg:max-w-xl m-0 p-0 mx-auto">
@@ -79,44 +93,7 @@ export default function Preise() {
 					steht dem nichts im wege.
 				</div>
 			</div>
-			<div>
-				<PreisComponent
-					heading="Lederpflege- und Reparatur"
-					subHeading="min. 3 Stunden, ab 280€"
-					className="">
-					<div>
-						Egal ob speckiges Leder oder eingerissene Sitzwange, wir können es
-						reparieren. Dein Leder wird wieder geschmeidiger und fühlt sich
-						wieder natürlicher an. Die Regelmäßige Lederpflege ist unheimlich
-						wichtig für den Werterhalt deines Schmuckstückes.
-					</div>
-				</PreisComponent>
-				<PreisComponent
-					heading="Textil- und Alcantara"
-					subHeading="min. 3 Stunden, ab 280€"
-					className="">
-					<div>
-						Flecken aus Stoff- oder Alcantaraoberflächen entfernen wir entweder
-						komplett Chemiefrei mit Trockendampf, oder schonend mit einer milden
-						Reinigungslösung. Damit die gereinigte Oberfläche auch langfristig
-						vor neuen Verschmutzungen geschützt ist, wird diese nach der
-						Reinigung imprägniert.
-						<br />
-					</div>
-				</PreisComponent>
-				<PreisComponent
-					heading="Felgenversiegelung"
-					subHeading="min. 2 Stunden, ab 230€"
-					className="">
-					<div>
-						Versiegelte Felgen lassen sich einfacher reinigen und glänzen
-						besser. Der heiße Bremsstaub kann sich außerdem nicht so schnell in
-						den Lack der Felge einbrennen. Für die Felgenbeschichtung nehmen wir
-						ausschließlich die Widerstandsfähigsten Keramikversiegelungen.{' '}
-						<br />
-					</div>
-				</PreisComponent>
-			</div>
+			<div></div>
 		</>
 	)
 }

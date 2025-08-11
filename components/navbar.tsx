@@ -33,9 +33,9 @@ export default function Navbar() {
 						<Link href="/" className="flex items-center">
 							<Image
 								src="/5-3d-1024px.png"
-								width={32}
+								width={38}
 								height={32}
-								className="h-8"
+								className="max-h-8"
 								alt="Logo"
 							/>
 						</Link>

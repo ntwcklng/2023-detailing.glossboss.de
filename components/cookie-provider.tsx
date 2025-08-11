@@ -20,7 +20,7 @@ export function CookieProvider({ children }: { children: React.ReactNode }) {
 				manageButtonText: 'Cookies verwalten',
 			}}
 			displayType="popup"
-			cookieKey="glossboss.deCookie"
+			cookieKey="Detailing.glossboss.deCookie"
 			theme="light">
 			{children}
 		</CookieManager>

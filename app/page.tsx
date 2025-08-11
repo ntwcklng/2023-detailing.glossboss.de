@@ -72,23 +72,12 @@ export default function Page() {
 						alt="IDA Member Sticker"
 					/>
 					<Image
-						src="/gtechniq-logo.jpg"
-						width={200}
-						height={100}
-						alt="gtechniq Logo"
-					/>
-					<Image
 						src="/LogoLabocosmetica.jpg"
 						width={200}
 						height={100}
 						alt="Labo Cometica Logo"
 					/>
-					<Image
-						src="/maxprotect.jpg"
-						width={200}
-						height={100}
-						alt="Max Protect Logo"
-					/>
+
 					<Image
 						src="/NanolexApprovedDetailer_2018.svg"
 						width={240}

@@ -23,7 +23,7 @@ export default function RootLayout({
 	return (
 		<html lang="de">
 			<body
-				className={`antialiased bg-linear-to-tr from-white to-gray-50 min-h-screen ${inter.className}`}>
+				className={`antialiased bg-linear-to-tr from-white to-gray-200 min-h-screen ${inter.className}`}>
 				<CookieProvider>
 					<Navbar />
 					<Container>
