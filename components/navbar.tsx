@@ -17,8 +17,6 @@ const navLinks = [
 		name: 'Workshops',
 	},
 	{ link: '/referenzen', name: 'Referenzen' },
-	{ link: '/anfahrt', name: 'Anfahrt' },
-	{ link: 'mailto:marvin@glossboss.de', name: 'Kontakt' },
 ]
 
 export default function Navbar() {

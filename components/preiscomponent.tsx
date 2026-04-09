@@ -1,5 +1,4 @@
 import { cx } from '@/utils/all'
-import Button from './button'
 import Card from './card'
 
 export default function PreisComponent(props: {
@@ -8,7 +7,6 @@ export default function PreisComponent(props: {
   subHeading: string
   children?: React.ReactNode
 }) {
-  const mailBody = `Hallo Marvin, ich würde gerne einen Termin für folgende Leistung anfragen: ${props.heading}.`
   return (
     <Card className={cx(props.className)} accent='purple'>
       <h2 className={`mt-0 'text-gray-900`}>
@@ -18,13 +16,9 @@ export default function PreisComponent(props: {
         </span>
       </h2>
       {props.children}
-      <Button
-        target='_blank'
-        rel='noreferrer'
-        href='https://a.glossboss.de/besichtigungstermin'
-        primary='true'>
-        Termin Vereinbaren
-      </Button>
+      <span className='inline-block px-4 py-2 text-sm font-medium text-gray-400 bg-gray-100 rounded-full cursor-default'>
+        Derzeit nicht buchbar
+      </span>
     </Card>
   )
 }
