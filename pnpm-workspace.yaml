@@ -2,3 +2,10 @@ allowBuilds:
   esbuild: true
   sharp: true
   unrs-resolver: true
+
+# Exempts official Next.js packages from the global 2-day minimumReleaseAge
+# supply-chain guard, so freshly published Next.js releases can be installed.
+minimumReleaseAgeExclude:
+  - next
+  - "@next/*"
+  - eslint-config-next

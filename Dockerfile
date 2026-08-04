@@ -2,6 +2,10 @@
 FROM node:24-slim AS builder
 WORKDIR /app
 
+# pnpm store lives here so it can be reused via a BuildKit cache mount
+ENV PNPM_HOME="/pnpm"
+ENV PATH="$PNPM_HOME:$PATH"
+
 # pnpm installieren (empfohlene Art)
 RUN corepack enable && corepack prepare pnpm@latest --activate
 
@@ -9,12 +13,17 @@ RUN corepack enable && corepack prepare pnpm@latest --activate
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
 
 # Prod + Dev deps installieren (für Build braucht man devDependencies)
-RUN pnpm install --frozen-lockfile
+# Shared pnpm store cache mount (id is deliberately shared across projects
+# on this builder so downloaded packages are reused between repos)
+RUN --mount=type=cache,id=pnpm-store,target=/pnpm/store pnpm install --frozen-lockfile
 
 # Rest rein
 COPY . .
-# Build Next.js
-RUN pnpm run build
+# Next 16.3's Turbopack filesystem cache lives in .next/cache; the BuildKit
+# cache mount persists it across image builds so repeat Coolify deploys
+# reuse unchanged compile artifacts. The id is unique per project so repos
+# on the same builder don't share one cache volume.
+RUN --mount=type=cache,id=nextcache-2023-detailing.glossboss.de,target=/app/.next/cache pnpm run build
 
 # ---- Production Stage ----
 FROM node:24-slim AS runner
